@@ -1,0 +1,20 @@
+apiVersion : apps/v1
+kind : Deployment
+metadata :
+  name : my-test-depolyment
+  labels :
+    app : my-k8s-application
+spec:
+  selector:
+    matchLables:
+      project: test
+  template:
+    metadata:
+      labels:
+        project: test
+    spec:
+      containers:
+        - name : test-apps
+          image : crccheck/hello-world:latest
+          ports:
+            - containerPort: 80
