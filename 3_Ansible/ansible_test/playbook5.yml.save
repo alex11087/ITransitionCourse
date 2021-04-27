@@ -1,0 +1,21 @@
+---
+- name: Install first server ab-haproxy
+  hosts: all
+  become: yes
+
+
+  tasks:
+  - name: Update apt-repository
+    apt: update_cache=true
+
+
+  - name: Sync-time
+    apt: name=ntp state=latest
+
+
+  - name: Install monit
+    apt: name=monit state=latest
+
+
+#  - name: Install Haproxy
+#    apt: name=haproxy state=lates

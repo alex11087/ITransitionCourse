@@ -1,0 +1,13 @@
+---
+# tasks file for deploy_stage_1
+
+  - name: Update apt-repository
+    apt: update_cache=true
+
+
+  - name: Sync-time
+    apt: name=ntp state=latest
+
+
+  - name: Install monit
+    apt: name=monit state=latest

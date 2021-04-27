@@ -1,0 +1,8 @@
+---
+- name: Install first server ab-haproxy
+  hosts: all
+  become: yes
+
+
+  roles:
+    - deploy_stage_1
