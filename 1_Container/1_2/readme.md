@@ -13,3 +13,5 @@
 Для подключения к машине используем
 
 `vagrant ssh`
+
+![Image alt](https://github.com/alex11087/ITransitionCourse/blob/main/1_Container/1_2/Screenshot%20from%202021-04-25%2019-36-53.png)
