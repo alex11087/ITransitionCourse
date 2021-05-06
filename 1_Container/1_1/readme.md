@@ -10,3 +10,12 @@
 
 
 Конфигурационный файл для работы Пакера - `ubuntu1804.json`
+Файл с инструкциями                       `http/preseed.cfg`
+Скрипт для Vagrant                        `scripts/init.sh` и `scripts/cleanup.sh`
+
+
+Запускаем Пакер
+ubuntu-18.08.box
+`packer build ubuntu1804.json`
+
+На выходе получаем бокс для Vagrant: `ubuntu-18.08.box`
