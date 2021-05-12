@@ -11,3 +11,7 @@
 
 - name: Install nginx
   apt: name=nginx state=latest
+
+
+  # Установка MySQL клиента и сервера
+  # sudo apt install mysql-server mysql-client
