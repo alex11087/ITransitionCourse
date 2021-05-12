@@ -1,3 +1,0 @@
-vagrant box add ubuntu-18.04.1.box --name alex-ubuntu1804test
-vagrant init alex-ubuntu1804test
-vagrant up
