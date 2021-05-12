@@ -1,0 +1,13 @@
+---
+# Устанавливаем nginx, Java, Tomcat, MySQL
+- name: Update apt-repository
+  apt: update_cache=true
+
+- name: Install apt-transport-https
+  apt: name=apt-transport-https state=present
+
+- name: Install Java 8
+  apt: name=openjdk-8-jdk state=present
+
+- name: Install nginx
+  apt: name=nginx state=latest
