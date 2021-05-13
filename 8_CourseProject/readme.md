@@ -124,9 +124,9 @@ AMI ID ami-04d9716692b63512d
 
 `cd /var/www/html`
 
-`wget http://wordpress.org/latest.tar.gz
+`wget http://wordpress.org/latest.tar.gz`
 
-tar -xzvf latest.tar.gzcd`
+`tar -xzvf latest.tar.gzcd`
 
 `mv wordpress AlexBlog`
 
@@ -141,11 +141,13 @@ https://aws.amazon.com/ru/getting-started/hands-on/deploy-wordpress-with-amazon-
 
 
 #-----------Site 2---------------#
+
 `npm install -g gatsby-cli`
 
 `sudo yum install git`
 
-# create a new Gatsby site using the hello-world starter
+#create a new Gatsby site using the hello-world starter
+
 `sudo gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world`
 
 `cd my-hello-world-starter/`
