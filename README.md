@@ -10,3 +10,4 @@
 5. Amazon
 6. Terraform
 7. Azure
+8. Course Project
