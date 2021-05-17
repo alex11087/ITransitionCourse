@@ -126,11 +126,12 @@ AMI ID ami-04d9716692b63512d
 
 `wget http://wordpress.org/latest.tar.gz`
 
-`tar -xzvf latest.tar.gzcd`
+`tar -xzvf latest.tar.gz`
 
 `mv wordpress AlexBlog`
 
-#Генерация секрета для конфиг файла
+#Генерация секрета для конфиг файла /var/www/html/wp-config-sample.php
+
 https://api.wordpress.org/secret-key/1.1/salt/
 
 `sudo cp -r /var/www/html/AlexBlog/* /var/www/html/`
@@ -142,7 +143,7 @@ https://aws.amazon.com/ru/getting-started/hands-on/deploy-wordpress-with-amazon-
 
 #-----------Site 2---------------#
 
-`npm install -g gatsby-cli`
+`sudo npm install -g gatsby-cli`
 
 `sudo yum install git`
 
@@ -152,4 +153,6 @@ https://aws.amazon.com/ru/getting-started/hands-on/deploy-wordpress-with-amazon-
 
 `cd my-hello-world-starter/`
 
-`gatsby develop`
+`sudo gatsby develop -H 0.0.0.0`
+
+#or --host=0.0.0.0

@@ -42,3 +42,7 @@ Container Image, держит минимальное количество раб
 
 #Сравнение Ingress Controllers
 `https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238`
+
+#Запуск deployments-файла
+
+`kubectl apply -f depolyment-test.yaml`

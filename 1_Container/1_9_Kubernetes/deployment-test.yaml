@@ -1,20 +1,20 @@
-apiVersion : apps/v1
-kind : Deployment
-metadata :
-  name : my-test-depolyment
-  labels :
-    app : my-k8s-application
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: itr-test-depolyment
+  labels:
+    app: my-k8s-application
 spec:
   selector:
-    matchLables:
-      project: test
+    matchLabels:
+      project: itr-test
   template:
     metadata:
       labels:
-        project: test
+        project: itr-test
     spec:
       containers:
-        - name : test-apps
+        - name : itr-test-app
           image : crccheck/hello-world:latest
           ports:
             - containerPort: 80
