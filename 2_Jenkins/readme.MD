@@ -17,3 +17,10 @@
 `sudo apt-get install jenkins`
 
 #Дженкинс работает на порту :8080
+
+
+#Credentials for Github
+
+`ssh-keygen jenkins`
+
+#Ключ jenkins.pub забрасываем в Github (Settings -> SSH and GPG keys -> New SSH key ), jenkins - в Jenkins.
