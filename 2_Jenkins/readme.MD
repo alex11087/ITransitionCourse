@@ -24,3 +24,12 @@
 `ssh-keygen jenkins`
 
 #Ключ jenkins.pub забрасываем в Github (Settings -> SSH and GPG keys -> New SSH key ), jenkins - в Jenkins.
+
+![Image alt](https://github.com/alex11087/ITransitionCourse/blob/main/2_Jenkins/pics/Screenshot%20from%202021-05-18%2012-18-12.png)
+![Image alt](https://github.com/alex11087/ITransitionCourse/blob/main/2_Jenkins/pics/Screenshot%20from%202021-05-18%2012-18-22.png)
+![Image alt](https://github.com/alex11087/ITransitionCourse/blob/main/2_Jenkins/pics/Screenshot%20from%202021-05-18%2012-18-38.png)
+![Image alt](https://github.com/alex11087/ITransitionCourse/blob/main/2_Jenkins/pics/Screenshot%20from%202021-05-18%2012-18-48.png)
+
+
+#Запускаем job
+![Image alt](https://github.com/alex11087/ITransitionCourse/blob/main/2_Jenkins/pics/Screenshot%20from%202021-05-18%2012-10-21.png)
