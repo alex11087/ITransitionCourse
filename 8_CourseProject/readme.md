@@ -36,7 +36,7 @@ kHykXrUlh8-5
 `sudo mysql_secure_installation`
 
 #Новый пароль
-qwertyQWERTY-098
+Qwerty-098
 
 #=========#
 Securing the MySQL server deployment.
@@ -124,11 +124,11 @@ AMI ID ami-04d9716692b63512d
 
 `cd /var/www/html`
 
-`wget http://wordpress.org/latest.tar.gz`
+`sudo wget http://wordpress.org/latest.tar.gz`
 
-`tar -xzvf latest.tar.gz`
+`sudo tar -xzvf latest.tar.gz`
 
-`mv wordpress AlexBlog`
+`sudo mv wordpress AlexBlog`
 
 #Генерация секрета для конфиг файла /var/www/html/wp-config-sample.php
 

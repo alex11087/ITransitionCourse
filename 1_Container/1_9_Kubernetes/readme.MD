@@ -46,3 +46,7 @@ Container Image, держит минимальное количество раб
 #Запуск deployments-файла
 
 `kubectl apply -f depolyment-test.yaml`
+
+#Проверка депло
+
+`kubectl get deploy`
