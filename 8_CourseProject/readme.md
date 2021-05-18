@@ -140,6 +140,8 @@ https://api.wordpress.org/secret-key/1.1/salt/
 
 https://aws.amazon.com/ru/getting-started/hands-on/deploy-wordpress-with-amazon-rds/5/
 
+`sudo chown -R apache: /var/www/html/`
+
 
 #-----------Site 2---------------#
 
